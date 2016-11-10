@@ -1,0 +1,6 @@
+framework module Pods_NoddAssign {
+  umbrella header "Pods-NoddAssign-umbrella.h"
+
+  export *
+  module * { export * }
+}

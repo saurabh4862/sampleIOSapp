@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2893CF88D83931D83BB1C9B0 /* Pods_NoddAssign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1B07AFD1A643E1AFF994769 /* Pods_NoddAssign.framework */; };
+		C6A48A3A1DAF5AC0000C517C /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A48A391DAF5AC0000C517C /* NewViewController.swift */; };
+		C6A630C71DAE507700CCF91C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A630C61DAE507700CCF91C /* libc++.tbd */; };
+		C6A630C91DAE508800CCF91C /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A630C81DAE508800CCF91C /* libicucore.tbd */; };
+		C6A630CB1DAE509400CCF91C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C6A630CA1DAE509400CCF91C /* libz.tbd */; };
+		C6AD10D71DA7BA3500A983C3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD10D61DA7BA3500A983C3 /* CoreText.framework */; };
+		C6AD20CD1DA7816800203478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD20CC1DA7816800203478 /* AppDelegate.swift */; };
+		C6AD20CF1DA7816800203478 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD20CE1DA7816800203478 /* ViewController.swift */; };
+		C6AD20D21DA7816800203478 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AD20D01DA7816800203478 /* Main.storyboard */; };
+		C6AD20D41DA7816800203478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AD20D31DA7816800203478 /* Assets.xcassets */; };
+		C6AD20D71DA7816800203478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AD20D51DA7816800203478 /* LaunchScreen.storyboard */; };
+		C6AD20E21DA7816800203478 /* NoddAssignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD20E11DA7816800203478 /* NoddAssignTests.swift */; };
+		C6AD20ED1DA7816800203478 /* NoddAssignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AD20EC1DA7816800203478 /* NoddAssignUITests.swift */; };
+		C6AD20FB1DA7863400203478 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD20FA1DA7863400203478 /* Accelerate.framework */; };
+		C6AD20FD1DA7864D00203478 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD20FC1DA7864D00203478 /* AVFoundation.framework */; };
+		C6AD20FF1DA7865300203478 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD20FE1DA7865300203478 /* CoreBluetooth.framework */; };
+		C6AD21031DA7865E00203478 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD21001DA7865E00203478 /* CoreData.framework */; };
+		C6AD21041DA7865E00203478 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD21011DA7865E00203478 /* CoreGraphics.framework */; };
+		C6AD21051DA7865E00203478 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD21021DA7865E00203478 /* CoreLocation.framework */; };
+		C6AD21071DA7866700203478 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD21061DA7866700203478 /* GLKit.framework */; };
+		C6AD21091DA7867000203478 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD21081DA7867000203478 /* ImageIO.framework */; };
+		C6AD210B1DA786B100203478 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD210A1DA786B100203478 /* OpenGLES.framework */; };
+		C6AD210D1DA786B700203478 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD210C1DA786B700203478 /* QuartzCore.framework */; };
+		C6AD210F1DA786C000203478 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD210E1DA786C000203478 /* Security.framework */; };
+		C6AD21111DA786C600203478 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6AD21101DA786C600203478 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6AD20DE1DA7816800203478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AD20C11DA7816800203478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AD20C81DA7816800203478;
+			remoteInfo = NoddAssign;
+		};
+		C6AD20E91DA7816800203478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6AD20C11DA7816800203478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6AD20C81DA7816800203478;
+			remoteInfo = NoddAssign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9246B4C87008C158991C160 /* Pods-NoddAssign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoddAssign.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoddAssign/Pods-NoddAssign.debug.xcconfig"; sourceTree = "<group>"; };
+		C1B07AFD1A643E1AFF994769 /* Pods_NoddAssign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoddAssign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A48A391DAF5AC0000C517C /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		C6A630C11DAE3E8400CCF91C /* libSystem.B.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSystem.B.dylib; path = ../../../../usr/lib/libSystem.B.dylib; sourceTree = "<group>"; };
+		C6A630C61DAE507700CCF91C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C6A630C81DAE508800CCF91C /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		C6A630CA1DAE509400CCF91C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C6A630CC1DAE519200CCF91C /* NoddAssign-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoddAssign-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6AD10D61DA7BA3500A983C3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C6AD20C91DA7816800203478 /* NoddAssign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoddAssign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AD20CC1DA7816800203478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6AD20CE1DA7816800203478 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6AD20D11DA7816800203478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6AD20D31DA7816800203478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6AD20D61DA7816800203478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6AD20D81DA7816800203478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AD20DD1DA7816800203478 /* NoddAssignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoddAssignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AD20E11DA7816800203478 /* NoddAssignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoddAssignTests.swift; sourceTree = "<group>"; };
+		C6AD20E31DA7816800203478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AD20E81DA7816800203478 /* NoddAssignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoddAssignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AD20EC1DA7816800203478 /* NoddAssignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoddAssignUITests.swift; sourceTree = "<group>"; };
+		C6AD20EE1DA7816800203478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AD20FA1DA7863400203478 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C6AD20FC1DA7864D00203478 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C6AD20FE1DA7865300203478 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C6AD21001DA7865E00203478 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C6AD21011DA7865E00203478 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6AD21021DA7865E00203478 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C6AD21061DA7866700203478 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C6AD21081DA7867000203478 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C6AD210A1DA786B100203478 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C6AD210C1DA786B700203478 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6AD210E1DA786C000203478 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C6AD21101DA786C600203478 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C6AD21121DA787AC00203478 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		C6AD21131DA787AC00203478 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+		C6AD21141DA787AC00203478 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		CA71D4D015EC72F943DC9CE9 /* Pods-NoddAssign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoddAssign.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoddAssign/Pods-NoddAssign.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6AD20C61DA7816800203478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A630CB1DAE509400CCF91C /* libz.tbd in Frameworks */,
+				C6A630C91DAE508800CCF91C /* libicucore.tbd in Frameworks */,
+				C6A630C71DAE507700CCF91C /* libc++.tbd in Frameworks */,
+				C6AD10D71DA7BA3500A983C3 /* CoreText.framework in Frameworks */,
+				C6AD21111DA786C600203478 /* SystemConfiguration.framework in Frameworks */,
+				C6AD210F1DA786C000203478 /* Security.framework in Frameworks */,
+				C6AD210D1DA786B700203478 /* QuartzCore.framework in Frameworks */,
+				C6AD210B1DA786B100203478 /* OpenGLES.framework in Frameworks */,
+				C6AD21091DA7867000203478 /* ImageIO.framework in Frameworks */,
+				C6AD21071DA7866700203478 /* GLKit.framework in Frameworks */,
+				C6AD21031DA7865E00203478 /* CoreData.framework in Frameworks */,
+				C6AD21041DA7865E00203478 /* CoreGraphics.framework in Frameworks */,
+				C6AD21051DA7865E00203478 /* CoreLocation.framework in Frameworks */,
+				C6AD20FF1DA7865300203478 /* CoreBluetooth.framework in Frameworks */,
+				C6AD20FD1DA7864D00203478 /* AVFoundation.framework in Frameworks */,
+				C6AD20FB1DA7863400203478 /* Accelerate.framework in Frameworks */,
+				2893CF88D83931D83BB1C9B0 /* Pods_NoddAssign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD20DA1DA7816800203478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD20E51DA7816800203478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ADB7B2623E873B293E311A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6A630CA1DAE509400CCF91C /* libz.tbd */,
+				C6A630C81DAE508800CCF91C /* libicucore.tbd */,
+				C6A630C61DAE507700CCF91C /* libc++.tbd */,
+				C6A630C11DAE3E8400CCF91C /* libSystem.B.dylib */,
+				C6AD10D61DA7BA3500A983C3 /* CoreText.framework */,
+				C6AD21121DA787AC00203478 /* libc++.1.dylib */,
+				C6AD21131DA787AC00203478 /* libicucore.A.dylib */,
+				C6AD21141DA787AC00203478 /* libz.1.dylib */,
+				C6AD21101DA786C600203478 /* SystemConfiguration.framework */,
+				C6AD210E1DA786C000203478 /* Security.framework */,
+				C6AD210C1DA786B700203478 /* QuartzCore.framework */,
+				C6AD210A1DA786B100203478 /* OpenGLES.framework */,
+				C6AD21081DA7867000203478 /* ImageIO.framework */,
+				C6AD21061DA7866700203478 /* GLKit.framework */,
+				C6AD21001DA7865E00203478 /* CoreData.framework */,
+				C6AD21011DA7865E00203478 /* CoreGraphics.framework */,
+				C6AD21021DA7865E00203478 /* CoreLocation.framework */,
+				C6AD20FE1DA7865300203478 /* CoreBluetooth.framework */,
+				C6AD20FC1DA7864D00203478 /* AVFoundation.framework */,
+				C6AD20FA1DA7863400203478 /* Accelerate.framework */,
+				C1B07AFD1A643E1AFF994769 /* Pods_NoddAssign.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6AD20C01DA7816800203478 = {
+			isa = PBXGroup;
+			children = (
+				C6AD20CB1DA7816800203478 /* NoddAssign */,
+				C6AD20E01DA7816800203478 /* NoddAssignTests */,
+				C6AD20EB1DA7816800203478 /* NoddAssignUITests */,
+				C6AD20CA1DA7816800203478 /* Products */,
+				F9C4CDDA4205A59871F67653 /* Pods */,
+				0ADB7B2623E873B293E311A4 /* Frameworks */,
+				C6A630CC1DAE519200CCF91C /* NoddAssign-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		C6AD20CA1DA7816800203478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD20C91DA7816800203478 /* NoddAssign.app */,
+				C6AD20DD1DA7816800203478 /* NoddAssignTests.xctest */,
+				C6AD20E81DA7816800203478 /* NoddAssignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6AD20CB1DA7816800203478 /* NoddAssign */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD20CC1DA7816800203478 /* AppDelegate.swift */,
+				C6AD20CE1DA7816800203478 /* ViewController.swift */,
+				C6AD20D01DA7816800203478 /* Main.storyboard */,
+				C6A48A391DAF5AC0000C517C /* NewViewController.swift */,
+				C6AD20D31DA7816800203478 /* Assets.xcassets */,
+				C6AD20D51DA7816800203478 /* LaunchScreen.storyboard */,
+				C6AD20D81DA7816800203478 /* Info.plist */,
+			);
+			path = NoddAssign;
+			sourceTree = "<group>";
+		};
+		C6AD20E01DA7816800203478 /* NoddAssignTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD20E11DA7816800203478 /* NoddAssignTests.swift */,
+				C6AD20E31DA7816800203478 /* Info.plist */,
+			);
+			path = NoddAssignTests;
+			sourceTree = "<group>";
+		};
+		C6AD20EB1DA7816800203478 /* NoddAssignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AD20EC1DA7816800203478 /* NoddAssignUITests.swift */,
+				C6AD20EE1DA7816800203478 /* Info.plist */,
+			);
+			path = NoddAssignUITests;
+			sourceTree = "<group>";
+		};
+		F9C4CDDA4205A59871F67653 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9246B4C87008C158991C160 /* Pods-NoddAssign.debug.xcconfig */,
+				CA71D4D015EC72F943DC9CE9 /* Pods-NoddAssign.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6AD20C81DA7816800203478 /* NoddAssign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AD20F11DA7816800203478 /* Build configuration list for PBXNativeTarget "NoddAssign" */;
+			buildPhases = (
+				E09F1AB900A5B1D1D67A21F3 /* Check Pods Manifest.lock */,
+				C6AD20C51DA7816800203478 /* Sources */,
+				C6AD20C61DA7816800203478 /* Frameworks */,
+				C6AD20C71DA7816800203478 /* Resources */,
+				2CBA91BA431040151188727B /* Embed Pods Frameworks */,
+				A71284FA68A96FFA420199FC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoddAssign;
+			productName = NoddAssign;
+			productReference = C6AD20C91DA7816800203478 /* NoddAssign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6AD20DC1DA7816800203478 /* NoddAssignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AD20F41DA7816800203478 /* Build configuration list for PBXNativeTarget "NoddAssignTests" */;
+			buildPhases = (
+				C6AD20D91DA7816800203478 /* Sources */,
+				C6AD20DA1DA7816800203478 /* Frameworks */,
+				C6AD20DB1DA7816800203478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AD20DF1DA7816800203478 /* PBXTargetDependency */,
+			);
+			name = NoddAssignTests;
+			productName = NoddAssignTests;
+			productReference = C6AD20DD1DA7816800203478 /* NoddAssignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6AD20E71DA7816800203478 /* NoddAssignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AD20F71DA7816800203478 /* Build configuration list for PBXNativeTarget "NoddAssignUITests" */;
+			buildPhases = (
+				C6AD20E41DA7816800203478 /* Sources */,
+				C6AD20E51DA7816800203478 /* Frameworks */,
+				C6AD20E61DA7816800203478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6AD20EA1DA7816800203478 /* PBXTargetDependency */,
+			);
+			name = NoddAssignUITests;
+			productName = NoddAssignUITests;
+			productReference = C6AD20E81DA7816800203478 /* NoddAssignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6AD20C11DA7816800203478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Saurabh;
+				TargetAttributes = {
+					C6AD20C81DA7816800203478 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C6AD20DC1DA7816800203478 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C6AD20C81DA7816800203478;
+					};
+					C6AD20E71DA7816800203478 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C6AD20C81DA7816800203478;
+					};
+				};
+			};
+			buildConfigurationList = C6AD20C41DA7816800203478 /* Build configuration list for PBXProject "NoddAssign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6AD20C01DA7816800203478;
+			productRefGroup = C6AD20CA1DA7816800203478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6AD20C81DA7816800203478 /* NoddAssign */,
+				C6AD20DC1DA7816800203478 /* NoddAssignTests */,
+				C6AD20E71DA7816800203478 /* NoddAssignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6AD20C71DA7816800203478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AD20D71DA7816800203478 /* LaunchScreen.storyboard in Resources */,
+				C6AD20D41DA7816800203478 /* Assets.xcassets in Resources */,
+				C6AD20D21DA7816800203478 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD20DB1DA7816800203478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD20E61DA7816800203478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CBA91BA431040151188727B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoddAssign/Pods-NoddAssign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A71284FA68A96FFA420199FC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoddAssign/Pods-NoddAssign-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09F1AB900A5B1D1D67A21F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6AD20C51DA7816800203478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A48A3A1DAF5AC0000C517C /* NewViewController.swift in Sources */,
+				C6AD20CF1DA7816800203478 /* ViewController.swift in Sources */,
+				C6AD20CD1DA7816800203478 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD20D91DA7816800203478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AD20E21DA7816800203478 /* NoddAssignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AD20E41DA7816800203478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AD20ED1DA7816800203478 /* NoddAssignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6AD20DF1DA7816800203478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AD20C81DA7816800203478 /* NoddAssign */;
+			targetProxy = C6AD20DE1DA7816800203478 /* PBXContainerItemProxy */;
+		};
+		C6AD20EA1DA7816800203478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6AD20C81DA7816800203478 /* NoddAssign */;
+			targetProxy = C6AD20E91DA7816800203478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6AD20D01DA7816800203478 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AD20D11DA7816800203478 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6AD20D51DA7816800203478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AD20D61DA7816800203478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6AD20EF1DA7816800203478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6AD20F01DA7816800203478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6AD20F21DA7816800203478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9246B4C87008C158991C160 /* Pods-NoddAssign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NoddAssign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.NoddAssign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NoddAssign-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6AD20F31DA7816800203478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA71D4D015EC72F943DC9CE9 /* Pods-NoddAssign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = NoddAssign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.NoddAssign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NoddAssign-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C6AD20F51DA7816800203478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NoddAssignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.NoddAssignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoddAssign.app/NoddAssign";
+			};
+			name = Debug;
+		};
+		C6AD20F61DA7816800203478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NoddAssignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.NoddAssignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoddAssign.app/NoddAssign";
+			};
+			name = Release;
+		};
+		C6AD20F81DA7816800203478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NoddAssignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.NoddAssignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NoddAssign;
+			};
+			name = Debug;
+		};
+		C6AD20F91DA7816800203478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NoddAssignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.NoddAssignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NoddAssign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6AD20C41DA7816800203478 /* Build configuration list for PBXProject "NoddAssign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AD20EF1DA7816800203478 /* Debug */,
+				C6AD20F01DA7816800203478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AD20F11DA7816800203478 /* Build configuration list for PBXNativeTarget "NoddAssign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AD20F21DA7816800203478 /* Debug */,
+				C6AD20F31DA7816800203478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AD20F41DA7816800203478 /* Build configuration list for PBXNativeTarget "NoddAssignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AD20F51DA7816800203478 /* Debug */,
+				C6AD20F61DA7816800203478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AD20F71DA7816800203478 /* Build configuration list for PBXNativeTarget "NoddAssignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AD20F81DA7816800203478 /* Debug */,
+				C6AD20F91DA7816800203478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6AD20C11DA7816800203478 /* Project object */;
+}
